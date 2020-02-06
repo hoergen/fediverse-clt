@@ -1,0 +1,83 @@
+% \documentclass[t,handout,aspectratio=169]{beamer}
+\documentclass[t,aspectratio=169]{beamer}
+\usetheme[
+    sectionpage=none,
+    subsectionpage=none,
+    numbering=none,
+    block=fill,
+]{metropolis}
+
+\setsansfont{Source Sans Pro}
+\setmonofont{Source Code Pro}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,nswissgerman]{babel}
+\usepackage{listings}
+\lstset{ %
+    basicstyle=\ttfamily\scriptsize,
+    breaklines=true,
+    columns=fullflexible,
+    keepspaces=true,
+    language=bash,
+    tabsize=2
+}
+
+% black, blue, brown, cyan, darkgray, gray, green, lightgray, lime, magenta, olive, orange, pink, purple, red, teal, violet, white, yellow.
+\hypersetup{ %
+    colorlinks=true,
+    linkcolor=,
+    urlcolor=orange
+}
+
+\usepackage{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Fediverse}
+\subtitle{Vernetzung abseits des Mainstreams.}
+\titlegraphic{\hfill\includegraphics[height=3cm]{png/myown-it-logo.png}}
+\author{Dirk Deimeke}
+\institute{My own IT @ Chemnitzer Linux-Tage}
+\date{Pi-Day 2020}
+\subject{Fediverse}
+\keywords{fediverse, the federation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\parindent0cm
+\parskip1.5ex
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Einleitung}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[standout]
+    Dirk Deimeke -- \href{https://d5e.org/}{d5e.org}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Der Schluss}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Vielen Dank!}
+    \vfill
+    \begin{center}
+        Dirk Deimeke, 2020, \href{https://creativecommons.org/licenses/by/4.0/}{CC-BY}
+
+        \href{mailto:dirk@deimeke.net}{dirk@deimeke.net}
+
+        \href{https://d5e.org/}{d5e.org} -- \href{https://speakerdeck.com/ddeimeke/}{speakerdeck.com/ddeimeke} \\
+        {\tiny PDF bei Speakerdeck herunterladen, dann sind die Links klickbar.}
+    \end{center}
+\end{frame}
+
+\end{document}
